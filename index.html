@@ -27,7 +27,7 @@
         <img src="C:\Users\jocel\Desktop\imagem..jpg" alt="Imagem de foto de perfil" title="Imagem de perfil">
         <article>
             <p>
-                Olá, eu sou a Maria Jocelaine e estou iniciando minha jornada da carreira de Desenvolvimento. 
+                Olá, eu sou a Maria Jocelaine e estou iniciando minha jornada da carreira de Desenvolvimento.
             </p>
         </article>
         <aside>
@@ -54,10 +54,46 @@
         <section id="contato">
             <h2>contato</h2>
             <P>Tem um rojeto em mente? Entre em contato.</P>
-            <address>
-                E-mail: <a href="mailto:jocelaine.carvalho@hotmail.com">jocelaine.carvalho@hotmail.com</a> <br>
-                telefone: <a href="tel:+5547997334709">(4)79973347-09</a>
-            </address>
+            <form action="">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome"name="nome" required> <br>
+
+                <label for="emal">Email:</label>
+                <input type="email" id="email"name="email" required> <br>
+
+        
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone"name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+
+                    <option value="orçamento">Orçamento</option>
+                    <option value="dúvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem</label> 
+
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>  <br>
+               <input type="checkbox" name="inscrição" id="inscrição"> 
+               <label for="inscrição">Deseja receber minha newletter? fique por dentro. </label>
+
+               <br>
+
+               <input type="submit" value="Enviar mensagem">
+
+               <input type="date" name="" id="">
+
+
+                
+                
+
+                
+            </form>
+
+            
         </section>
     </footer>
 </body>
